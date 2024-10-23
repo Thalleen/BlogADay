@@ -112,7 +112,7 @@ app.use((req,res)=>{
 })
 
 
-//before ejs
+// before ejs
 
 // //routing
 // app.get("/",(req,res)=>{
