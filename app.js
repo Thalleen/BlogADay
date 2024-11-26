@@ -8,7 +8,7 @@ const Blog = require("./models/blog.js")
 const dbURI = "mongodb+srv://nodeuser:node123@nodetutorial.8n73q.mongodb.net/node-tutorial?retryWrites=true&w=majority&appName=nodetutorial"
 mongoose.connect(dbURI)
     .then((result)=>app.listen(3000))
-    .catch((err)=>console.log(err));
+    .catch((err)=>console.log(err)); 
 
 //setting view engine as ejs 
 app.set("view engine","ejs")
