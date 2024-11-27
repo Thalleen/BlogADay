@@ -1,5 +1,5 @@
 
-const fs = require("fs");
+const fs = require("fs"); 
 // Reading files
 
 // // this function here will take time to read from the file once it is done the async function gets executed
